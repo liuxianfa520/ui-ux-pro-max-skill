@@ -1,0 +1,2 @@
+No,Category,Guideline,Description,Do,Don't,Code Good,Code Bad,Severity,Docs URL
+1,Components,Use Svelte components,Modern Svelte,Use .svelte files for components,Other file types,<!-- MyComponent.svelte --> <script> let count = 0; </script> <button on:click={() => count++}>Count: {count}</button>,
